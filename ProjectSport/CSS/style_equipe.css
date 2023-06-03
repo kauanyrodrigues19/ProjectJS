@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+.img_first {
+    background: url("../IMG/equipe.jpg") no-repeat center center;
+    background-size: cover;
+    height: 92vh;
+}
+
+body{background-color: #ffffff;}
+
+/* Estilos para o layout */
+#listaJogadores {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 150vh;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(72deg, #751257 5%, #000000 95%);
+}
+
+p{font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;}
+
+#botaoApagar, #botaoEditar{
+  background: linear-gradient(72deg, #312296 5%, #000000 95%);
+  border: 2px solid #000000;
+  color: #fff;
+  font-size: 14px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 9px;
+  margin-top: 10px;
+}
+
+.jogador-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.jogador {
+  text-align: center;
+  margin: 10px;
+  background-color: #ffffff; /* Cor de fundo para cada jogador */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para os jogadores */
+}
+
+.jogador img {
+  width: 200px;
+}
+
+
+/* Responsividade - @media  */
+@media only screen and (max-width: 800px) {
+  .img_first {
+    background: url("../IMG/equipe.jpg") no-repeat center center;
+    background-size: cover;
+    height: 40vh;
+  }  
+}
+
+@media screen and (max-width: 600px) {
+  /* Estilos para telas menores ou iguais a 600px de largura */
+  .jogador {
+    width: calc(50% - 20px);
+  }
+}
+
+@media screen and (max-width: 400px) {
+  /* Estilos para telas menores ou iguais a 400px de largura */
+  .jogador {
+    width: calc(100% - 20px);
+  }
+}

@@ -1,0 +1,116 @@
+ * {
+    margin: 0;
+    padding: 0;
+  }
+
+/* Configurações do Formulário */
+.container_ext {
+    font-family: "Poppins", sans-serif;
+    background: url("../IMG/sobre_form.jpg") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  .container {
+    background-color: #fafafa;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 60em;
+    max-width: 100%;
+    overflow: hidden;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .header {
+    background: linear-gradient(72deg, #312296 5%, #000000 95%);
+    padding: 20px;
+  }
+
+  .header h2{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.712);
+  }
+
+  #text_info{
+    text-align: justify;
+    color: #ffffff79;
+    margin: 3% 0 -2% 0;
+  }
+  
+  .form {padding: 20px;}
+  
+  .form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+  }
+  
+  .form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+  
+  .form-control input {
+    border: 2px solid #f0f0f0;
+    display: block;
+    border-radius: 10px;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px;
+  }
+
+  
+  .form-control select{
+    border: 2px solid #f0f0f0;
+    font-family: "Poppins", sans-serif;
+    display: block;
+    border-radius: 10px;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .form-control i {
+    position: absolute;
+    top: 45px;
+    right: 10px;
+    visibility: hidden;
+  }
+  
+  .form-control small {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+  }
+  
+  .form #cadastrarButton {
+    background: linear-gradient(72deg, #312296 5%, #000000 95%);
+    border: 2px solid #000000;
+    color: #fff;
+    font-size: 14px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  .form #editarButton {
+    background: linear-gradient(72deg, #312296 5%, #000000 95%);
+    border: 2px solid #000000;
+    color: #fff;
+    font-size: 14px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+  }
+/* Fim - Formulário */
+  
+  
+ 
