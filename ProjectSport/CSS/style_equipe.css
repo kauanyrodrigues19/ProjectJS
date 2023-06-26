@@ -13,12 +13,11 @@
 body{background-color: #ffffff;}
 
 /* Estilos para o layout */
-#listaJogadores, #jogadoresSelecionados {
+#listaJogadores {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  height: 150vh;
   margin: 0;
   padding: 0;
   background: linear-gradient(72deg, #751257 5%, #000000 95%);
@@ -26,7 +25,7 @@ body{background-color: #ffffff;}
 
 p{font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;}
 
-#botaoApagar, #botaoEditar, #botaoSelecionar{
+#botaoApagar, #botaoEditar{
   background: linear-gradient(72deg, #312296 5%, #000000 95%);
   border: 2px solid #000000;
   color: #fff;
@@ -54,34 +53,6 @@ p{font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;}
 
 .jogador img {
   width: 200px;
-}
-
-.jogadorSelecionado {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.jogadorSelecionado img {
-  width: 200px;
-}
-
-.card {
-  text-align: center;
-  margin: 10px;
-  background-color: #ffffff; /* Cor de fundo para cada jogador */
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para os jogadores */
-}
-
-.jogadoresSelecionadosContainer{
-  text-align: center;
-  margin: 10px;
-  background-color: #ffffff; /* Cor de fundo para cada jogador */
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para os jogadores */
 }
 
 /* Responsividade - @media  */

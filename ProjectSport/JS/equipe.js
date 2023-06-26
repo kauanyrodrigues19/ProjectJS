@@ -1,3 +1,5 @@
+// Discentes: Ana Beatriz e Kauany
+
 function exibirJogadores() {
   // Obter os jogadores do localStorage
   let jogadoresString = localStorage.getItem("jogadores");

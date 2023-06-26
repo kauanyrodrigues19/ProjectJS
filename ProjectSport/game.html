@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
      <!-- Site Responsivo -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Equipe</title>
+    <title>Jogo</title>
     <!-- Adicionando um ícone a aba da página -->
     <link rel="icon" type="image/png" href="./IMG/logo.jpg"/> 
     <!-- Link externo do CSS -->
     <link rel="stylesheet" href="./CSS/menu.css"/>
-    <link rel="stylesheet" href="./CSS/style_equipe.css"/>
+    <link rel="stylesheet" href="./CSS/style_jogo.css"/>
     <link rel="stylesheet" href="./CSS/footer.css"/>
     <!-- Link para os Ícones -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
@@ -27,19 +27,37 @@
           <div class="line3"></div>
         </div>
         <ul class="nav-list">
-          <li><a href="./home.html">Home</a></li>
-          <li><a class="active" href="./equipe.html">Equipe</a></li>
+          <li><a class="active" href="./home.html">Home</a></li>
+          <li><a href="./equipe.html">Equipe</a></li>
           <li><a href="./form.html">Cadastro</a></li>
         </ul>
       </nav>
       <!-- Fim - Menu -->
     </header>
 
-    <div class="img_first"></div>
-  
-    <div id="listaJogadores" class="jogador-container"></div>
-    <div id="jogadoresSelecionados" class="jogadorSelecionado"></div>
+    
 
+    
+    <div class="img_first"></div>
+    <div id="ExibirPlayer">
+      <br><br><h1> Monte seu time selecionando seus jogadores </h1><br>
+      <p>O time estará no final do site, aproveite e veja se ele conseuguiria ganhar o campeonato!</p><br><br>
+      <div id="listaJogadores" class="jogador-container"></div>
+      <br><br>
+    </div>
+    <div class="img_second"></div>
+
+    <div class="Exibir_Player_Selecionado">
+      <br><br> <h2> Seu time será montando aqui! Pronto para o jogo? </h2><br><br>
+      <div id="jogadoresSelecionados" class="jogadorSelecionado"></div> <br><br>
+    </div>
+
+    <div class="Exibir_Jogo">
+      <p>Veja aqui se seu time tem chances de ganhar!</p><br>
+      <div id="resultado"></div><br>
+      <br><div id="resultadoTimes"></div> <br><br>
+      <button id="botaoJogar">Jogar </button> <br><br>
+    </div>
 
     <!-- Rodapé do Site -->
     <div class="footer">

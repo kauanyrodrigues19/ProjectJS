@@ -1,3 +1,4 @@
+// Discentes: Ana Beatriz e Kauany
 function cadastrar() {
   // Obter os valores dos campos de entrada
   let imagem = document.getElementById("imagem").value;

@@ -1,3 +1,4 @@
+// Discentes: Ana Beatriz e Kauany
 // Obter os dados do jogador armazenados no sessionStorage
 let jogadorEditString = sessionStorage.getItem("jogadorEditando");
 let jogadorEdit = JSON.parse(jogadorEditString);

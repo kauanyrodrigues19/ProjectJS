@@ -1,3 +1,4 @@
+// Discentes: Ana Beatriz e Kauany
 
 const next = document.querySelector(".next-btn");
 const slides = document.querySelectorAll(".slide");
